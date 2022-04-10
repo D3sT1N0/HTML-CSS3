@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    
+    <h1>Inserindo Videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu próprio servidor</p>
+
+    <!--<video src="videos/cores.mp4" width="600" controls></video> ///- pode ser assim ou conforme abaixo-->
+
+    <video width="500" poster="imagens/fotopng2.png" controls autoplay loop>
+
+        <source src="videos/cores.mp4" type="video/mp4"> <!--> é bom colocar os outros tipos de video para outros navegadores consigam abrir como: m4v e webm -->
+
+        <p>seu navegador não tem compatibilidade com reprodução de videos </p>
+    </video>
+
+    <h1>Inserindos Videos do Youtube</h1>
+
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h1>Inserindo Videos do Vimeo</h1>
+
+        <iframe src="https://player.vimeo.com/video/257141041?h=b13af1f56b&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
